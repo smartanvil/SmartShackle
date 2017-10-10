@@ -1,6 +1,9 @@
 accessing
 html
 	| content |
+	
+	instance contract isFileBased ifTrue: [ 
+	
 	content := mirror instanceMirror properties inject: '' into: [ :acc :p | acc , '<tr><td>' , p name , '</td>' , '<td>' , (p value: instance) html , '</td></tr>' ].
 	^ '
 <!DOCTYPE html>
@@ -37,4 +40,4 @@ html
 	</div>
 </div>
 </html>
-' format: {content . self style . instance contract fromFile basename }
+' format: {content . self style . instance contract fromFile basename } ] ifFalse: [ 'Unknown contract' ].
