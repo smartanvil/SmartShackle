@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 12/5/2016 16:23",
+	"super" : "RTBuilder",
+	"category" : "SmartShackle-Charting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"value",
+		"showInRoassalBlock"
+	],
+	"name" : "SmartValue",
+	"type" : "normal"
+}

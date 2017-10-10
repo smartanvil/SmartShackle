@@ -1,0 +1,16 @@
+{
+	"classtraitcomposition" : "TSmartShowable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"instance",
+		"mirror"
+	],
+	"name" : "SmartInspect",
+	"commentStamp" : "SantiagoBragagnolo 12/16/2016 16:27",
+	"super" : "FogConnectedObject",
+	"traitcomposition" : "TSmartShowable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "SmartShackle-Inspect"
+}

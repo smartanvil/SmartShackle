@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 12/5/2016 16:22",
+	"super" : "Object",
+	"category" : "SmartShackle-Charting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmartCharts",
+	"type" : "normal"
+}

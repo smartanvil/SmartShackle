@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 12/5/2016 16:23",
+	"super" : "SmartValue",
+	"category" : "SmartShackle-Charting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmartArrayValue",
+	"type" : "normal"
+}

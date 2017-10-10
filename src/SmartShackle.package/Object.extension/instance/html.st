@@ -1,0 +1,3 @@
+*SmartShackle
+html
+	^ self asString
