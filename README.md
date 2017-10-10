@@ -21,10 +21,6 @@
   sudo apt-get install ia32-libs
 ``` 
 
-## RHash
-``` 
- sudo apt-get install rhash
-``` 
 ## Solidity
 ``` 
  npm install solc
@@ -35,7 +31,7 @@
 ## Download the code 
 ``` 
 mkdir myfolder
-git clone git@github.com:sbragagnolo/Fog.git
+git clone git@github.com:RMODINRIA-Blockchain/SmartShackle.git
 git checkout v0.1
 ``` 
 
@@ -86,11 +82,16 @@ gethURL := 'http://localhost:8545'.
 The viewer script returns a Json/Html encoded object with the variable values and the contract name.
 
 ``` 
-viewer.sh json ADDRESS-TO-CONTRACT
+viewer.sh json ADDRESS-TO-CONTRACT > output.json
 viewer.sh html ADDRESS-TO-CONTRACT > output.html 
 ``` 
 
 
+The viewer scripts as well allows to open a graphic interface that shows the contract in an interactive fashion
+
+``` 
+viewer.sh pharo ADDRESS-TO-CONTRACT
+``` 
 
 
 
