@@ -9,7 +9,7 @@ cd - > /dev/null
 
 if [ "$#" -ne 2 ]; then
     echo "Illegal number of parameters."
-    echo " viewer [json|html] contract-address "
+    echo " viewer [json|html|pharo] contract-address "
     exit 1
 fi
 
@@ -24,6 +24,10 @@ if [ "$1" = "html" ]; then
 fi
 
 
+if [ "$1" = "pharo" ]; then
+    "$DIR"/files/pharo-ui "$DIR"/files/Pharo st "$DIR"/pharo-viewer.st $2
+    exit 0
+fi
 
 
 echo " Ilegal export option $1 "

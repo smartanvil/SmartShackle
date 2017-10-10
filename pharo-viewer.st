@@ -11,22 +11,11 @@ FogTransactionMonitorService
 	current ]
 	on: Error
 	do: [ :err | 
-		self halt.
-		FileStream stderr
-			nextPutAll: 'Error during configuration ' , err messageText.
-		Smalltalk exit: 1 ].
+		UIManager default inform:'Error during configuration ' , err messageText. ].
 address := Smalltalk arguments at: 2.
 instance := FogConnection currentConnection findContractBindByHash: address blockTag: #latest. 
-
 instance contract hasAst
-	ifFalse: [ FileStream stderr
-			nextPutAll: 'Contract instance does not match any available source code';
-			cr.
-		Smalltalk exit: 1 ].
-FileStream stdout
-	nextPutAll:
-		(SmartInspect new
-			instance: instance;
-			yourself) json;
-	cr.
-^ Smalltalk exit: 0
+	ifFalse: [ UIManager default inform:'Contract instance does not match any available source code'.].
+(SmartInspect new
+instance: instance;
+yourself) inspect maximize.
