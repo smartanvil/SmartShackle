@@ -1,0 +1,4 @@
+generated-benchmark
+tryContractBokkyPooBahsAutonomousRefundathonFacility
+	self inspect: '0x60e112d4e585bba817dc513bf9a03cd9b5a46fc9' withDescription: 'etherscan/BokkyPooBahsAutonomousRefundathonFacility2.sol' asFileReference. 
+	

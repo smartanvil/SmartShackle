@@ -1,0 +1,4 @@
+generated-benchmark
+tryContractBlockmaticsGraduationCertificate_02102017
+	self inspect: '0xb6cd94c7cdea8fa5cfad9210e3f2358ad8b0cd75' withDescription: 'etherscan/BlockmaticsGraduationCertificate_021020171.sol' asFileReference. 
+	

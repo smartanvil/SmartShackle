@@ -1,0 +1,4 @@
+generated-benchmark
+tryContractBokkyPooBahsEtherRefundablePrize
+	self inspect: '0x385f9016fcb55cc7f31293025726ca221e6dfb85' withDescription: 'etherscan/BokkyPooBahsEtherRefundablePrize3.sol' asFileReference. 
+	

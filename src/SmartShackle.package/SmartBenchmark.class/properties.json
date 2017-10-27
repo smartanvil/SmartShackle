@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SmartShackle-BenchMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"results"
+	],
+	"name" : "SmartBenchmark",
+	"type" : "normal"
+}
