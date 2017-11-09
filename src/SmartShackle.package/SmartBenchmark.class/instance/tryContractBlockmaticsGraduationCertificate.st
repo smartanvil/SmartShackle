@@ -1,4 +1,0 @@
-generated-benchmark
-tryContractBlockmaticsGraduationCertificate
-	self inspect: '0x4C2C4511BA8F5B5f356ADF7eaeBCE8dD2ea9a9c6' withDescription: 'etherscan/BlockmaticsGraduationCertificate2.sol' asFileReference. 
-	

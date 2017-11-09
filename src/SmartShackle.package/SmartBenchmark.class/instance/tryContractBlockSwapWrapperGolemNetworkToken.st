@@ -1,4 +1,0 @@
-generated-benchmark
-tryContractBlockSwapWrapperGolemNetworkToken
-	self inspect: '0x5656913C2a5917866A167d7cb792BfE250966Aa1' withDescription: 'etherscan/BlockSwapWrapperGolemNetworkToken2.sol' asFileReference. 
-	
