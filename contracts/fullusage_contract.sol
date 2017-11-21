@@ -9,7 +9,7 @@ pragma solidity ^0.4.2;
 		FixedPointType 
 */
 
-contract FullUsage {
+asdcontract FullUsage {
 
    /* Type Definition */
     enum EnumDefinition { POSITIVE , NEGATIVE , NEUTRAL }
