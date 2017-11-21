@@ -1,3 +1,3 @@
 benchmarking
 result
-	self subclassResponsibility 
+	^ results groupedBy: [ :v | v value class  ]

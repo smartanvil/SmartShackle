@@ -2,11 +2,14 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "SmartShackle-BenchMark",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"instance"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"results"
+		"results",
+		"rawmode"
 	],
 	"name" : "SmartBenchmark",
 	"type" : "normal"

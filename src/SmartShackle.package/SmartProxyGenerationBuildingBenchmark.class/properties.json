@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmartBenchmark",
+	"category" : "SmartShackle-BenchMark",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmartProxyGenerationBuildingBenchmark",
+	"type" : "normal"
+}
