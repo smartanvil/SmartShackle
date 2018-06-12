@@ -7,7 +7,7 @@
 	],
 	"name" : "SmartInspect",
 	"commentStamp" : "SantiagoBragagnolo 12/16/2016 16:27",
-	"super" : "FogConnectedObject",
+	"super" : "FogSessionObject",
 	"traitcomposition" : "TSmartShowable",
 	"type" : "normal",
 	"classinstvars" : [ ],
