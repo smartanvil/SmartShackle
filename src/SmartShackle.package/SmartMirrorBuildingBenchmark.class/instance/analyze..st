@@ -2,7 +2,7 @@ generated
 analyze: aFileReference
 	| rslt |
 	^ rawmode
-		ifTrue: [ (FogFileContractDescription loadCode: aFileReference connection: FogConnection currentConnection) mirror ]
+		ifTrue: [ (FogFileContractDescription loadCode: aFileReference session: session) mirror ]
 		ifFalse: [ [ rslt := (FogFileContractDescription loadCode: aFileReference connection: FogConnection currentConnection) mirror ]
 				on: Error
 				do: [ :e | rslt := e ].

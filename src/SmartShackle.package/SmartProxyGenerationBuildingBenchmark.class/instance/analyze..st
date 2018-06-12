@@ -1,7 +1,7 @@
 generated
 analyze: aFileReference
 	| rslt |
-	[ rslt := (FogFileContractDescription loadCode: aFileReference connection: FogConnection currentConnection) contract ]
+	[ rslt := (FogFileContractDescription loadCode: aFileReference session: session) contract ]
 		on: Error
 		do: [ :e | rslt := e ].
 	results at: aFileReference put: rslt

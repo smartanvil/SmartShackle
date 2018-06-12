@@ -1,7 +1,7 @@
 as yet unclassified
 inspect: aHash withDescription: aFileReference
 	| description mirror instanceMirror inspection fetch |
-	[ description := FogFileContractDescription loadCode: aFileReference connection: FogConnection currentConnection ]
+	[ description := FogFileContractDescription loadCode: aFileReference session: session ]
 		on: Error
 		do: [ :e | description := e ].
 	[ mirror := description mirror ]
@@ -10,7 +10,7 @@ inspect: aHash withDescription: aFileReference
 	[ instanceMirror := mirror instanceMirror ]
 		on: Error
 		do: [ :e | instanceMirror := e ].
-	[ fetch := FogConnection currentConnection findContractBindByHash: aHash blockTag: #latest.
+	[ fetch := session findContractBindByHash: aHash blockTag: #latest.
 	fetch contract binary = '0x0'
 		ifTrue: [ fetch := 'Unavailable Contract ' ]
 		ifFalse: [ fetch contract: description ] ]

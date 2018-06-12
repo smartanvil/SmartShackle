@@ -9,7 +9,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"results",
-		"rawmode"
+		"rawmode",
+		"session"
 	],
 	"name" : "SmartBenchmark",
 	"type" : "normal"
