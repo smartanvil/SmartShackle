@@ -10,7 +10,7 @@ inspect: aHash withDescription: aFileReference
 	[ instanceMirror := mirror instanceMirror ]
 		on: Error
 		do: [ :e | instanceMirror := e ].
-	[ fetch := session findContractBindByHash: aHash blockTag: #latest.
+	[ fetch := session findContractInstanceByHash: aHash blockTag: #latest.
 	fetch contract binary = '0x0'
 		ifTrue: [ fetch := 'Unavailable Contract ' ]
 		ifFalse: [ fetch contract: description ] ]
