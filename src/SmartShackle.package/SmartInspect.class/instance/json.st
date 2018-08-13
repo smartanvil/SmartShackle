@@ -1,4 +1,4 @@
-as yet unclassified
+private accessing
 json
 	| dictionary |
 	dictionary := (mirror instanceMirror properties collect: [ :p | p name -> (p value: instance)  ]) asDictionary.

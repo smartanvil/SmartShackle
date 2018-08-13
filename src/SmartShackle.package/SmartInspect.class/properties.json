@@ -3,7 +3,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"instance",
-		"mirror"
+		"mirror",
+		"reference"
 	],
 	"name" : "SmartInspect",
 	"commentStamp" : "SantiagoBragagnolo 12/16/2016 16:27",

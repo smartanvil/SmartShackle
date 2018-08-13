@@ -1,3 +1,3 @@
-as yet unclassified
+inspecting
 inspect
 	^ GTInspector openOn: self

@@ -1,5 +1,7 @@
 {
-	"name" : "TSmartShowable",
 	"commentStamp" : "SantiagoBragagnolo 1/23/2017 08:36",
-	"category" : "SmartShackle-Charting"
+	"classinstvars" : [ ],
+	"category" : "SmartShackle-Charting",
+	"instvars" : [ ],
+	"name" : "TSmartShowable"
 }

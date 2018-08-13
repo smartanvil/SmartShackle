@@ -4,4 +4,4 @@ showableProperties
 		collect: [ :property | 
 			SmartValue new
 				name: property name;
-				value: (property value: instance) ]
+				value: (property using: instance session value: instance at: #latest) ]
