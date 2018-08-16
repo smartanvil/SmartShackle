@@ -1,7 +1,7 @@
 as yet unclassified
 inspect: aHash withDescription: aFileReference
 	| description mirror instanceMirror inspection fetch |
-	[ description := FogFileContractDescription loadCode: aFileReference session: session ]
+	[ description := self loadCode: aFileReference]
 		on: Error
 		do: [ :e | description := e ].
 	[ mirror := description mirror ]
