@@ -1,3 +1,4 @@
 generated
 loadCode: aFileReference
-	^ session findContractDescriptionForSourceCode: aFileReference readStream upToEnd
+	^ (session loadPackageForCode: aFileReference readStream upToEnd named: #benchmark)
+		descriptions anyOne
