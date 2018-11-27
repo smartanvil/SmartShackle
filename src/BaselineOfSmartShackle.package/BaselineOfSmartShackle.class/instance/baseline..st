@@ -10,5 +10,5 @@ baseline: spec
 						className: #ConfigurationOfRoassal2;
 						version: #stable;
 						repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2/main' ].
-			spec baseline: 'FogDB' with: [ spec repository: 'github://smartshackle/Fog/src' ].
-			spec package: #SmartShackle with: [ spec requires: #('FogDB' Roassal2) ] ]
+			spec baseline: 'FogLive' with: [ spec repository: 'github://smartanvil/Fog/src' ].
+			spec package: #SmartShackle with: [ spec requires: #('FogLive' Roassal2) ] ]
