@@ -14,7 +14,7 @@ buildBlockBasedAccountsByKindPie: pie for: blocksToAnalyze
 								ammount: asoc value size;
 								yourself);
 						yourself ]).
-	es := pie slice: [ :v | v value ammount ].
+	es := pie slice: [ :v | v value amount ].
 	pie labeled.
 	pie normalizer
 		elements: es;
